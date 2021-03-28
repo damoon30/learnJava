@@ -2,7 +2,13 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/coding/coding.iml" filepath="$PROJECT_DIR$/coding/coding.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gmall-api/gmall-api.iml" filepath="$PROJECT_DIR$/gmall-api/gmall-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gmall-common-unit/gmall-common-unit.iml" filepath="$PROJECT_DIR$/gmall-common-unit/gmall-common-unit.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gmall-parent/gmall-parent.iml" filepath="$PROJECT_DIR$/gmall-parent/gmall-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gmall-service-unit/gmall-service-unit.iml" filepath="$PROJECT_DIR$/gmall-service-unit/gmall-service-unit.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gmall-user-service/gmall-user-service.iml" filepath="$PROJECT_DIR$/gmall-user-service/gmall-user-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gmall-user-web/gmall-user-web.iml" filepath="$PROJECT_DIR$/gmall-user-web/gmall-user-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gmall-web-unit/gmall-web-unit.iml" filepath="$PROJECT_DIR$/gmall-web-unit/gmall-web-unit.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/learnJava.iml" filepath="$PROJECT_DIR$/.idea/learnJava.iml" />
     </modules>
   </component>

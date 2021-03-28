@@ -7,16 +7,35 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="coding" />
+        <module name="gmall-api" />
+        <module name="gmall-service-unit" />
+        <module name="gmall-user-web" />
+        <module name="gmall-user-service" />
+        <module name="gmall-common-unit" />
+        <module name="gmall-web-unit" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="coding" target="1.8" />
+      <module name="gmall-api" target="8" />
+      <module name="gmall-common-unit" target="8" />
+      <module name="gmall-parent" target="1.8" />
+      <module name="gmall-service-unit" target="8" />
+      <module name="gmall-user" target="1.8" />
+      <module name="gmall-user-service" target="8" />
+      <module name="gmall-user-web" target="8" />
+      <module name="gmall-user1" target="8" />
+      <module name="gmall-web-unit" target="8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="coding" options="-parameters" />
+      <module name="gmall-common-unit" options="-parameters" />
+      <module name="gmall-service-unit" options="-parameters" />
+      <module name="gmall-user" options="-parameters" />
+      <module name="gmall-user-service" options="-parameters" />
+      <module name="gmall-user-web" options="-parameters" />
+      <module name="gmall-user1" options="-parameters" />
+      <module name="gmall-web-unit" options="-parameters" />
     </option>
   </component>
 </project>
