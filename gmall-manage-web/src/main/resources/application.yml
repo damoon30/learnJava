@@ -1,0 +1,19 @@
+server:
+  port: 8081
+
+dubbo:
+  application:
+    name: manage-web
+  registry:
+    address: zookeeper://39.101.141.231:2181
+  consumer:
+    timeout: 600000
+    check: false
+  scan:
+    base-packages: com.atguigu.gmall.controller
+
+logging:
+  level:
+    root: info
+
+

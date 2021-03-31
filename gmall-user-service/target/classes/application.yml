@@ -1,0 +1,27 @@
+server:
+  port: 8070
+
+spring:
+  datasource:
+    username: root
+    password: 123456
+    url: jdbc:mysql://39.101.141.231:3306/own?characterEncoding=UTF-8
+
+mybatis:
+  mapper-locations: classpath:mapper/*Mapper.xml
+  configuration:
+    map-underscore-to-camel-case: true
+
+dubbo:
+  application:
+    name: user-service
+  protocol:
+    name: dubbo
+    port: 8889
+  registry:
+    address: zookeeper://39.101.141.231:2181
+  scan:
+    base-packages: com.atguigu.gmall.user.service
+
+
+
