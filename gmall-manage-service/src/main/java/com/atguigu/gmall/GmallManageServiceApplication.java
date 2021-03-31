@@ -6,10 +6,10 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
 @EnableDubbo
-public class ManageWebApplication {
+public class GmallManageServiceApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(ManageWebApplication.class, args);
+        SpringApplication.run(GmallManageServiceApplication.class, args);
     }
 
 }
