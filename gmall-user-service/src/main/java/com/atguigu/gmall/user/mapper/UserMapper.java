@@ -1,4 +1,4 @@
-package com.ayguigu.gmall.user.mapper;
+package com.atguigu.gmall.user.mapper;
 
 
 
